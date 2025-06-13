@@ -2,7 +2,6 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const { enforcePersonaAttribution } = require('./middleware/fsvl');
-const cors = require('./middleware/cors');
 const app = express();
 
 app.use(cors());
