@@ -28,7 +28,6 @@ app.use('/api/tokens', tokensRoute);
 // TODO: Implement /api/chat, /api/persona, /api/context, /api/evolution
 
 const PORT = process.env.PORT || 3000;
-const PORT = process.env.PORT or 3000;
 app.listen(PORT, () => {
   console.log(`Infinity Agent backend listening on port ${PORT}`);
 });
